@@ -1,0 +1,1 @@
+{"name": "GoonFree", "short_name": "GoonFree", "start_url": "/index.html", "display": "standalone", "icons": [{"src": "/assets/images/favicon.png", "sizes": "64x64", "type": "image/png"}], "theme_color": "#5A2DFF", "background_color": "#ffffff"}
