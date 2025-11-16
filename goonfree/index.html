@@ -21,6 +21,8 @@
   <link rel="stylesheet" href="/assets/css/style.css">
   <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
   <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
 </head>
 
 <header>
@@ -58,7 +60,7 @@
 
 </header>
 <body class="antialiased">
-  <section id="hero" class="hero hero-gradient text-white">
+  <section id="hero" class="hero hero-gradient text-white px-5">
     <div class="container">
       <div class="grid md:grid-cols-2 gap-8 items-center">
         <div data-aos="fade-right">
@@ -71,17 +73,18 @@
             Launching soon on Play Store & App Store.
           </p>
 
-          <div class="flex gap-4 items-center">
-            <a class="inline-flex gap-2 items-center px-6 py-3 rounded-full bg-white text-black font-semibold shadow-lg" href="#">
-              <img src="/assets/icons/playstore.svg" alt="" class="h-5 w-5">
-              Coming Soon — Play Store
-            </a>
+<div class="flex gap-4 items-center mt-4">
+  <a href="#" class="inline-flex items-center gap-3 px-8 py-4 rounded-full bg-white text-black font-semibold shadow-lg hover:shadow-xl hover:scale-[1.03] transition-all">
+    <i class="fab fa-google-play text-xl"></i>
+    <span>Play Store</span>
+  </a>
 
-            <a class="inline-flex gap-2 items-center px-6 py-3 rounded-full border border-white/30 text-white font-semibold" href="#">
-              <img src="/assets/icons/appstore.svg" alt="" class="h-5 w-5">
-              Coming Soon — App Store
-            </a>
-          </div>
+  <a href="#" class="inline-flex items-center gap-3 px-8 py-4 rounded-full border border-white/40 text-white font-semibold backdrop-blur hover:bg-white/10 hover:shadow-xl hover:scale-[1.03] transition-all">
+    <i class="fab fa-apple text-2xl"></i>
+    <span>App Store</span>
+  </a>
+</div>
+
 
           <div class="mt-6">
             <a href="mailto:goonfreeapp@gmail.com" class="underline">Contact Me</a>
@@ -94,26 +97,75 @@
       </div>
     </div>
   </section>
-  <section id="features" class="py-24 bg-white">
-    <div class="container">
-      <h2 class="text-4xl font-bold gradient-text text-center mb-10" data-aos="fade-up">Why GoonFree?</h2>
-      <div class="grid md:grid-cols-3 gap-8">
-        <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
-          <h3 class="font-semibold text-xl mb-2">Quit Porn Addiction</h3>
-          <p class="text-gray-700">Tools and tracking designed to help you escape compulsive habits.</p>
-        </div>
-        <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
-          <h3 class="font-semibold text-xl mb-2">Regain Focus</h3>
-          <p class="text-gray-700">Recover concentration and energy for work and life.</p>
-        </div>
-        <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
-          <h3 class="font-semibold text-xl mb-2">Daily Tracking</h3>
-          <p class="text-gray-700">Streaks, progress, and data to keep you motivated.</p>
-        </div>
+<section id="features" class="py-24 bg-gradient-to-b from-white to-gray-50 px-5">
+  <div class="container mx-auto px-6">
+    <h2 class="text-4xl font-bold gradient-text text-center mb-14" data-aos="fade-up">
+      Why GoonFree?
+    </h2>
+
+    <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
+
+      <div class="feature-card" data-aos="fade-up" data-aos-delay="150">
+        <h3 class="font-semibold text-xl mb-2 flex items-center gap-2">
+          📊 Daily Tracking
+        </h3>
+        <p class="text-gray-700">Streaks and stats to keep you motivated.</p>
       </div>
+
+      <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+        <h3 class="font-semibold text-xl mb-2 flex items-center gap-2">
+          🌬 Deep Breathing
+        </h3>
+        <p class="text-gray-700">Calming exercises to control urges instantly.</p>
+      </div>
+
+      <div class="feature-card" data-aos="fade-up" data-aos-delay="250">
+        <h3 class="font-semibold text-xl mb-2 flex items-center gap-2">
+          📝 Daily Goal
+        </h3>
+        <p class="text-gray-700">Set meaningful goals and challenge yourself daily.</p>
+      </div>
+
+      <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
+        <h3 class="font-semibold text-xl mb-2 flex items-center gap-2">
+          🚫 Block Triggers
+        </h3>
+        <p class="text-gray-700">Remove harmful sources before they lead to relapse.</p>
+      </div>
+
+      <div class="feature-card" data-aos="fade-up" data-aos-delay="350">
+        <h3 class="font-semibold text-xl mb-2 flex items-center gap-2">
+          👁 Five Senses
+        </h3>
+        <p class="text-gray-700">A grounding method to break emotional loops.</p>
+      </div>
+
+      <div class="feature-card" data-aos="fade-up" data-aos-delay="400">
+        <h3 class="font-semibold text-xl mb-2 flex items-center gap-2">
+          🤖 AI Chat + Calls
+        </h3>
+        <p class="text-gray-700">Talk to a supportive AI trained in addiction recovery.</p>
+      </div>
+
+      <div class="feature-card" data-aos="fade-up" data-aos-delay="450">
+        <h3 class="font-semibold text-xl mb-2 flex items-center gap-2">
+          🌍 Community
+        </h3>
+        <p class="text-gray-700">Connect with rebooters — you're not alone.</p>
+      </div>
+
+      <div class="feature-card" data-aos="fade-up" data-aos-delay="550">
+        <h3 class="font-semibold text-xl mb-2 flex items-center gap-2">
+          📈 Progress
+        </h3>
+        <p class="text-gray-700">Visualize your recovery journey through charts & logs.</p>
+      </div>
+
     </div>
-  </section>
-  <section id="about" class="py-24 bg-gray-50">
+  </div>
+</section>
+
+  <section id="about" class="py-24 bg-gray-50 px-5">
     <div class="container text-center" data-aos="fade-up">
       <h2 class="text-4xl font-bold ">About GoonFree</h2>
       <!-- <small >GoonFree's mission is to help people quit porn and regain control over their attention and life.</small> <br> <br> -->
@@ -121,7 +173,7 @@
       <p class="mt-6 font-semibold">This website is developed by <span class="gradient-text">Rizwan</span>, Software Engineer (<a href="mailto:riz.softs@gmail.com" class="underline">riz.softs@gmail.com</a>).</p>
     </div>
   </section>
-  <section id="contact" class="py-24 bg-white">
+  <section id="contact" class="py-24 bg-white px-5">
     <div class="container text-center" data-aos="fade-up">
       <h2 class="text-4xl font-bold mb-4 gradient-text">Contact</h2>
       <p class="text-gray-700 mb-6">Questions or partnership inquiries? Reach out via email.</p>
@@ -130,7 +182,7 @@
     </div>
   </section>
 
- <footer class="pt-12 pb-8 bg-white dark:bg-gray-900 text-center">
+ <footer class="pt-12 pb-8 bg-white dark:bg-gray-900 text-center px-5">
   <div class="max-w-7xl mx-auto px-6">
     <div class="flex flex-col md:flex-row md:justify-between items-center gap-4">
       <div class="text-sm text-gray-600 dark:text-gray-300">
